@@ -17,6 +17,30 @@
     <price>9.90</price>
     <year>1991</year>
   </cd>
+ <cd>
+    <title>Album</title>
+    <artist>Artist 3</artist>
+    <country>USA</country>
+    <company>Island</company>
+    <price>9.90</price>
+    <year>year</year>
+  </cd>
+ <cd>
+    <title>Album</title>
+    <artist></artist>
+    <country>USA</country>
+    <company>Island</company>
+    <price>9.90</price>
+    <year>year</year>
+  </cd>
+  <cd>
+    <title>Album</title>
+    <artist>Artist 5</artist>
+    <country>USA</country>
+    <company>Island</company>
+    <price>9.90</price>
+    <year>year</year>
+  </cd>
 .
 .
 </catalog> 

@@ -5,8 +5,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/">
   <html>
   <body>
-  <h2>My CD Collection</h2>
-    <div style="float:left; min-width:100%; background-color:pink; font-color:white">
+  <h2>Catalog</h2>
+    <div style="float:left; min-width:100%;">
       <div style="float:left; width:30%">Title</div>
       <div style="float:left; width:30%">Artist</div>
       <div style="float:left; width:30%">Price</div>
