@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="xslt.xsl"?>
-<catalog>
+<xml_output>
   <cd>
     <title>Empire Burlesque</title>
     <artist>Bob Dylan</artist>
@@ -43,4 +43,4 @@
   </cd>
 .
 .
-</catalog> 
+</xml_output> 
