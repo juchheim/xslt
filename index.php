@@ -12,11 +12,13 @@ foreach($xml->children() as $album)
     $i++;
 
     if ($i % 2 != 0){
-        ?><div style='float:left; min-width:100%; background-color:blue; color:white'><?php
-
+        ?><div style='float:left; padding:10px; min-width:100%; background-color:gray; color:white;'><?php
+    } else {
+        ?><div style='float:left; padding:10px; min-width:100%; background-color:white; color:black;'><?php
     }
+
     if ($artist != "") {
-        echo "<span>Artist: ". $artist ."</span><br />";
+        echo "<span style=''>Artist: ". $artist ."</span><br />";
     } else {
         echo "Artist: name not found<br />";
     }
@@ -28,7 +30,7 @@ foreach($xml->children() as $album)
     }
 
     if ($price != "") {
-        echo "<span>Price: ". $price ."</span><br /><br />";
+        echo "<span>Price: ". $price ."</span><br />";
     }else {
         echo "Price: unknown<br />";
     }
