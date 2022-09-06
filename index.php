@@ -12,7 +12,7 @@ foreach($xml->children() as $album)
     $i++;
 
     if ($i % 2 != 0){
-        ?><div style='float:left; min-width:100%; background-color:pink; font-color:white'><?php
+        ?><div style='float:left; min-width:100%; background-color:blue; color:white'><?php
 
     }
     if ($artist != "") {
